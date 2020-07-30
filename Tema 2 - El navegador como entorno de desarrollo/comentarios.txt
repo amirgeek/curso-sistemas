@@ -1,0 +1,32 @@
+Hola Amir,
+
+¡Tu trabajo está muy bien! Te hago algunos comentarios para que los tengas en cuenta.
+Las etiquetas HTML, recordá que siempre van con apertura y cierre.
+
+Línea 5:
+
+<meta charset= "utf-8"  <-- falta cierre ">"
+
+(Algunos elementos se pueden auto-cerrar, por ejemplo los que están dentro del <head>)
+Pero como regla, siempre <elemento> </elemento>
+
+Línea 72/73:
+
+ <tr/>
+   <table/>
+
+El cierre es </tr> y </table>
+
+
+Línea 43 y similares:
+
+<button id="3">3</button id= "3">
+
+El atributo id, sólo va en la etiqueta de apertura.
+En la de cierre no. Te quedaría así:
+
+<button id="3">3</button>
+
+
+¡Eso sería todo!
+Abrazo!!
